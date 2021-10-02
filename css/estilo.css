@@ -1,0 +1,136 @@
+*
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'firasansregular' ;
+    src: url(fontes/firasansregular.ttf);
+    font-weight: normal;
+}
+body{
+    font-family: 'firasansregular', Arial, Helvetica, sans-serif ;
+}
+header{
+    background-color: #1B6A96;
+    height: 19rem;
+    width: 87rem;
+    text-align: center;
+    position: relative;
+    top: -3.4rem;
+    right: 29px;
+    
+}
+header .menuprincipal{
+    width:90%;
+    align-items: center;
+    
+    
+}
+header .menuprincipal > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.76rem;
+    position: absolute;
+    top: 17.4rem;
+    left: 4rem;
+    width: 79rem;
+    color: black;
+    padding: 0.1rem;
+    text-decoration:none;
+   /* background-color:#ffffff;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));*/
+  
+}
+header .menuprincipal a{
+    text-decoration: none;
+}
+header .logo{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: center;
+    grid-template-rows: 350px 1fr;
+}
+header .bandeira{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-right: 1rem;
+    left: 75.5rem;
+    top: -6.1rem;
+    position: relative;
+}
+header .fundoletra{
+    position:relative;
+    top: -17rem;
+    right: 56rem;
+}
+section .videomedicina{
+    position: relative;
+    left: 42rem;
+    top: -35rem;
+}
+main .destaques{
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    color: #1B6A96;
+    font-size: 2.9rem;
+}
+main .destaquesb{
+    position: relative;
+    right: 1.6rem;
+    top: -2.3rem;
+    font-size: 1.4rem;
+    ;
+    
+}
+main .barramenu{
+    position: relative;
+    top: -75.4rem;
+    right: 5rem;
+    z-index: -2;
+    
+}
+footer{
+    background-color: #1B6A96 ;
+    text-align: center;
+    position: relative;
+    top: -22rem;
+    left: -0.5rem;
+}
+section .botoes{
+    position: relative;
+    top: -22rem;
+    text-align: center;
+    word-spacing: 5rem;
+    line-height: 5rem;
+}
+section .barrap{
+    position: relative;
+    top: -18rem;
+
+}
+section .barrag{
+    position: relative;
+    top: -41rem;
+    text-align: center;
+}
+footer .face{
+    position: relative;
+    top: 0.5rem;
+}
+footer .redes{
+    position: relative;
+    top: 0.7rem;
+}
+    
+    
+   
+  
+

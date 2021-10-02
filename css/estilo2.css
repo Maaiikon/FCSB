@@ -1,0 +1,67 @@
+header{
+	text-align: center;
+	background-color: #1B6A96;
+}
+.conteudopaginas{
+	border-top: 2rem solid var(--cor-azul);
+	border-bottom:2rem solid var(--cor-azul);
+
+}
+
+.conteudopaginas form{
+	padding: 2rem;
+	max-width: 600px;
+	margin: 2rem auto;
+}
+
+.campoformulario{
+	margin: 1.rrem 0;
+
+}
+
+.campoformulario input,
+.campoformulario select,
+.campoformulario textarea{
+	width: 100%;
+	padding: 1rem;
+}
+
+.campoformulario input[type=radio]{
+	width:initial;
+	margin-right:0 1rem 0 5rem;
+}
+
+.campoformulario input[type=checkbox]{
+	width:initial;
+	margin-right:1rem;
+}
+
+.campoformulario fieldset{
+	padding:2rem;
+}
+
+.btn{
+	background-color:var(--cor-vermelha);
+	padding:
+	box-shadow:0 4px 1px var(--cor-preta);
+}
+
+.btn:hover{
+	background-color:var(--cor-preta);
+	box-shadow:0 4px 1px var(--vermelha);
+}
+
+.btn-azul{
+	background-color:var(--cor-azul);
+	box-shadow:0 4px 1px var(--cor-azul-escuro);
+}
+
+.btn-azul:hover{
+	background-color:var(--cor-azul-escuro);
+	box-shadow:0 4px 1px var(--cor-azul);
+}
+.tituloformulario{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 4rem;
+}
