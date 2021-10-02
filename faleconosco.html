@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head land="pt-br">
+        <title>FCSB</title>
+        <meta charset="UTF-8">
+        <link href="css/estilo2.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="imagens/logodefinitiva.png">
+        </header>
+        <section class="conteudopaginas">
+            <div class="formulario">
+                <h2 class="tituloformulario">FALE CONOSCO</h2>
+                
+                <form action="http://www.thiagomiranda.net/formulario.php." method="GET">
+                <div class="campoformulario"> 
+                <label>
+                    Nome:
+                <input type="text" name="nome" placeholder="Digite seu nome completo">
+                </lable>
+                </div>
+                
+                <div class="campoformulario">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placehoder="Digite seu email">		
+                </div>
+        
+                <div class="campoformulario">
+                <label>
+                    Data de Nascimento:
+                    <input type="date" name="datanascimento">
+                </label>
+                </div>
+        
+                <div class="campoformulario">
+                <fieldset>
+                    <legend>Sexo:</legend>
+                    <label>
+                        <input type="radio" name="sexo" value="M">
+                        Masculino
+                    </label>
+        
+                    <label>
+                        <input type="radio" name="sexo" value="F">
+                        Feminino
+                    </label>
+                </fieldset>
+                </div>
+        
+                <div class="campoformulario">
+                <label for="plano">Qual seu nível de escolaridade:</label>
+                <select name="plano" id="plano">
+                    <option></option>
+                    <option value="NP">Médio Incompleto</option>
+                    <option value="PI">Médio Completo</option>
+                    <option value="PF">Ensino Superior Cursando</option>
+                    <option value="PM">Ensino Superior Completo</option>
+                </select>
+                </div>
+        
+                <div class="campoformulario">
+                <label>
+                    Mensagem:
+                    <textarea name="mensagem"></textarea>
+                </label>
+                </div>
+        
+                <div class="campoformulario">
+                <label>
+                    Você aceita receber nossos Emails com novidades?
+                    <input type="checkbox" name="promocoes" value="sim" checked>
+                </label>
+                </div>
+        
+                <div class="btnformulario">
+                <button class="btn" type="submit">Enviar a Mensagem</button>
+                <button class="btn btn-azul" type="reset">Apagar o Formulário</button>
+                </div>
+        
+                </form>
+            </div>
+        </section>
+    </body>
+
+
+
+
+
+</html>
